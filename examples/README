@@ -1,14 +1,51 @@
-Explanation of examples:
-------------------------
+Here's a cleaner, more structured version of your example explanations in markdown format:
 
- 
-- example1:  Ca/Mg substitutions in a 2x2x2 supercell of rocksalt MgO. VASP input files created. 
+---
 
-- example2:  Al/Fe substitution in magnetite Fe3O4 (cubic unit cell of the spinel structure). Here the substitution will occur in both tetrahedral and octahedral sites, so in principle it is possible to study the distribution of substitutions over the two different sites. VASP input files created. 
+## Explanation of Examples
 
-- example3:  Fe/Sb disorder in 2x2x2 supercell of rutile FeSbO4. Since starting from Fe2O4 or Sb2O4 is chemically weird in terms of oxidation states, I start with a generic MO2 composition, and then replace M(IV) by equal parts of Fe(III) and Sb(V). VASP input files created. See Grau-Crespo et al. Chemistry of Materials (2004): https://pubs.acs.org/doi/abs/10.1021/cm035271y.  
+---
 
-- example4:  Al/Fe substitution in 2x2x2 supercell of LaFeO3 perovskite, using GULP. It also contains examples of energy extrapolation using SPBE0 and SPBE1 (see folders inside n04) and of grandcanonical statistics (x0.25 folder). 
+### **Example 1**: **Ca/Mg Substitutions in a 2x2x2 Supercell of Rocksalt MgO**
+- **Description**: This example simulates the substitution of Ca and Mg in a 2x2x2 supercell of rocksalt MgO.
+- **Objective**: Investigate the effects of Ca/Mg substitution in the MgO crystal structure.
+- **Method**: VASP input files were created to perform DFT calculations for this substitution process.
 
-- example5:  Averaging (NMR) spectra in the canonical or grand-canonical configurational space of the La2Zr2O7-La2Sn2O7 solid solution. The NMR peaks were originally calculated using CASTEP. Here we show the files for the configurational statistics (but exclude all the DFT files to save space).   
+---
 
+### **Example 2**: **Al/Fe Substitution in Magnetite Fe₃O₄ (Cubic Unit Cell of the Spinel Structure)**
+- **Description**: This example involves Al and Fe substitutions in the magnetite Fe₃O₄ structure, which has a cubic spinel structure.
+- **Objective**: Study the distribution of Al/Fe substitutions over tetrahedral and octahedral sites within the spinel structure.
+- **Method**: VASP input files were created for this substitution process, enabling the analysis of substitutions on both sites.
+
+---
+
+### **Example 3**: **Fe/Sb Disorder in a 2x2x2 Supercell of Rutile FeSbO₄**
+- **Description**: This example models Fe/Sb disorder in a 2x2x2 supercell of rutile FeSbO₄.
+- **Approach**: 
+  - Due to the chemical incompatibility of starting with Fe₂O₄ or Sb₂O₄ in terms of oxidation states, the model begins with a generic MO₂ composition.
+  - M(IV) is replaced with equal parts of Fe(III) and Sb(V) to simulate the disorder.
+- **Reference**: For further details, see *Grau-Crespo et al.*, *Chemistry of Materials* (2004): [DOI link](https://pubs.acs.org/doi/abs/10.1021/cm035271y).
+- **Method**: VASP input files were created to simulate the disorder in this system.
+
+---
+
+### **Example 4**: **Al/Fe Substitution in a 2x2x2 Supercell of LaFeO₃ Perovskite**
+- **Description**: This example involves Al/Fe substitution in the LaFeO₃ perovskite structure.
+- **Features**: 
+  - Includes **energy extrapolation** using SPBE0 and SPBE1.
+  - Uses **grand-canonical statistics** to model different configurations, with a specific example in the `x0.25` folder.
+- **Method**: GULP is used to create input files for this Al/Fe substitution study in the perovskite structure.
+
+---
+
+### **Example 5**: **Averaging NMR Spectra in the Configurational Space of the La₂Zr₂O₇-La₂Sn₂O₇ Solid Solution**
+- **Description**: This example demonstrates how to average NMR spectra in the configurational space of the La₂Zr₂O₇-La₂Sn₂O₇ solid solution.
+- **Method**: 
+  - NMR peaks were originally calculated using CASTEP.
+  - Configurational statistics files are provided (excluding DFT files to save space).
+- **Objective**: To study the NMR spectra by accounting for different configurations of the solid solution.
+
+---
+
+Let me know if you need further adjustments!
